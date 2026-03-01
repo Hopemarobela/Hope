@@ -65,6 +65,25 @@ display: block;
 margin: 20px 0   
 }
 
+ table {
+
+    border: 2px solid black;
+    border-spacing: 0;
+    }
+
+    table td {
+        border: 1px solid black;
+        gap: 0;
+    }
+
+    table th {
+        border: 1px solid black;
+        gap: 0;
+        background-color: white;
+        justify-content: left;
+    }
+
+
 footer {
 
     background-color: #333;
